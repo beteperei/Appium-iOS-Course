@@ -2,7 +2,7 @@ import io.appium.java_client.ios.IOSDriver;
 
 import java.net.MalformedURLException;
 
-public class TC01 extends Base{
+public class TC01_SendKeys extends Base{
     public static void main(String[] args) throws MalformedURLException {
         IOSDriver driver = caps();
 

@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TC02 extends Base{
+public class TC02_Steppers extends Base{
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         IOSDriver driver = caps();
 

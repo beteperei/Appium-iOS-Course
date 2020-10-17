@@ -20,7 +20,7 @@ public class Base {
         d.setCapability(MobileCapabilityType.APP,"//Users//bpena//Documents//Automation//UIKitCatalog.app");
 
         String url = "http://127.0.0.1:4723/wd/hub";
-        driver = new IOSDriver<>(new URL(url),d);
+        driver = new IOSDriver(new URL(url),d);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
