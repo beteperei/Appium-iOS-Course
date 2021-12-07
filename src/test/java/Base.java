@@ -19,7 +19,7 @@ public class Base {
         capabilities.setCapability(IOSMobileCapabilityType.LAUNCH_TIMEOUT,500000);
         capabilities.setCapability("commandTimeouts","12000");
 
-        capabilities.setCapability(MobileCapabilityType.APP,"Users/bertha/Documents/Proyectos/Automation/Java/UIKitCatalog.app");
+        capabilities.setCapability(MobileCapabilityType.APP,"UIKitCatalog.app");
 
         String url = "http://localhost:4723/wd/hub";
 
