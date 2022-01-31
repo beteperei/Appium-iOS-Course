@@ -7,7 +7,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-
 public class Base implements appLocalVariables {
 
     public static IOSDriver desiredCapabilities() throws MalformedURLException {
