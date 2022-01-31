@@ -9,9 +9,9 @@ public class AppiumClickTest extends Base{
 
         driver.findElementByAccessibilityId("Alert Views").click();
 
-        /*driver.findElementByXPath("//XCUIElementTypeStaticText[@name='Text Entry']").click();
+        driver.findElementByXPath("//XCUIElementTypeStaticText[@name='Text Entry']").click();
         driver.findElementByClassName("XCUIElementTypeTextField").sendKeys("hello");
-        driver.findElementByXPath("//XCUIElementTypeButton[@name='Cancel']").click();*/
+        driver.findElementByXPath("//XCUIElementTypeButton[@name='Cancel']").click();
 
         driver.findElementByAccessibilityId("Confirm / Cancel").click();
         System.out.println(driver.findElementByXPath("//*[contains(@name,'message')]").getText());
