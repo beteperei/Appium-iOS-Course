@@ -1,14 +1,11 @@
 import io.appium.java_client.ios.IOSDriver;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ScrollTest extends Base{
+public class ScrollTest extends UIKitCatalogBase {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         IOSDriver driver = desiredCapabilities();

@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Base implements appLocalVariables {
+public class UIKitCatalogBase implements appLocalVariables {
 
     public static IOSDriver desiredCapabilities() throws MalformedURLException {
 
@@ -19,7 +19,7 @@ public class Base implements appLocalVariables {
         capabilities.setCapability(IOSMobileCapabilityType.LAUNCH_TIMEOUT,500000);
         capabilities.setCapability("commandTimeouts","12000");
 
-        capabilities.setCapability(MobileCapabilityType.APP,app_local_url);
+        capabilities.setCapability(MobileCapabilityType.APP,uiKitCatalog_app_local_url);
 
         IOSDriver driver = new IOSDriver(new URL(appium_url),capabilities);
         return driver;

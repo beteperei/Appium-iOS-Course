@@ -5,7 +5,7 @@ import org.testng.Assert;
 
 import java.net.MalformedURLException;
 
-public class SliderTest extends Base{
+public class SliderTest extends UIKitCatalogBase {
 
     public static void main(String[] args) throws MalformedURLException {
         IOSDriver driver = desiredCapabilities();
